@@ -8,12 +8,12 @@
   <div class="collapse navbar-collapse" id="mynav">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" routerLink="dashboard">
           Dashboard
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" routerLink="about">
           About
         </a>
       </li>
@@ -33,5 +33,5 @@
 </nav>
 
 <div class="container-fluid">
-  <h1>Task manager</h1>
+  <router-outlet></router-outlet>
 </div>
