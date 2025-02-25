@@ -16,6 +16,12 @@ export class DashboardComponent implements OnInit {
   CurrentExpenditure: number = 96788;
   AvailableFunds: number = 52536;
 
+  Clients: string[] = [];
+  Projects: string[] = [];
+  Years: number[] = [];
+  TeamMembersSummary: any[] = [];
+  TeamMembers: any[] = [];
+
   ngOnInit(): void {
   }
 }
